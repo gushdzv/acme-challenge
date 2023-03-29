@@ -4,8 +4,10 @@ This repository contains a Python solution for calculating the total payment to 
 
 ### Overview
 The approach to solving this challenge was the creation of two files:
-pay_calculator.py: that contains the PayCalculator class. This class provides methods for calculating the payment based on an employee's work schedule received as a text file. 
-main.py: that is the main script that reads the employee schedules,  calculates the payment using the PayCalculator class, and prints the results.
+
+- pay_calculator.py: that contains the PayCalculator class. This class provides methods for calculating the payment based on an employee's work schedule received as a text file. 
+
+- main.py: that is the main script that reads the employee schedules,  calculates the payment using the PayCalculator class, and prints the results.
 
 ### Architecture
 - The PayCalculator class is responsible for parsing input data and calculating the payment for each employee. It takes a dictionary of rates for each day of the week and time window as an argument during initialization.
@@ -20,15 +22,15 @@ main.py: that is the main script that reads the employee schedules,  calculates 
 
 1. Clone this repository:
 
-``` git clone ```
+``` git clone git@github.com:gushdzv/acme-challenge.git ```
 
 2. Change to the repository directory:
 
-``` cd ```
+``` cd acme-challenge ```
 
 3. Run the main.py script:
 
-``` python main.py ```
+``` python3 main.py ```
 
 The output will display the amount to pay each employee, as shown in the example below:
 
